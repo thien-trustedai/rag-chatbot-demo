@@ -1,0 +1,89 @@
+{
+  "extraction_info": {
+    "source_pdf": "53665a35-d5b9-4163-89a9-72b9a6c162ea",
+    "total_pages": 1,
+    "successful_pages": 1,
+    "total_figures": 1,
+    "total_tables": 1,
+    "total_sections": 2
+  },
+  "structure": [
+    {
+      "id": "section_1",
+      "index": 1,
+      "page": 1,
+      "heading": null,
+      "heading_type": null,
+      "text_content": "第 1 章 ルータの概要",
+      "figures": [],
+      "tables": [],
+      "bounding_box": {
+        "x0": 64.09,
+        "y0": 103.43,
+        "x1": 138.4,
+        "y1": 110.98,
+        "width": 74.31,
+        "height": 7.55
+      }
+    },
+    {
+      "id": "section_2",
+      "index": 2,
+      "page": 1,
+      "heading": "シャーシの外観",
+      "heading_type": "Title",
+      "text_content": "## シャーシの外観\n\n- 1. Power over Ethernet（POE）は、オプションの外部 PoE 電源と併用できます。\n\n- 2. Cisco 1905 および Cisco 1921 ISR に EHWIC を取り付ける前に、PoE の電源をオフにします。\n\n- 注意 Cisco 1905 および Cisco 1921 ISR に EHWIC を取り付ける前に、PoE の電源をオフにします。\n\n図 1-2 は、Cisco 1905 および Cisco 1921 ルータの背面パネルにあるポートおよび LED を示していま す。\n\n### Table: Table 1\n\n![Table 1](tables/page1_table1.png)\n\n- 1. Voice/WAN Interface Card（VWIC; 音声/WAN インターフェイス カード）は、データだけをサポートします。\n\n- 2. ダブル幅のスロットは、1921 だけにあります。\n\n- 3. 1905 のスロット 0（右）には、取り外せないインターフェイス カードが取り付けられた状態で出荷されます。ス ロット 1（左）のみを使用できます。\n\n- 4. 1905 および 1921 に取り付けられる EHWIC ギガビット イーサネット スイッチは 1 つだけです。\n\n- 5. サポート対象のモジュールについては、『Module Support on Cisco's Integrated Services Routers Generation 2』 （http://cisco.com/en/US/prod/collateral/routers/ps10538/aag_c07_563807.pdf）を参照してください。\n\n- 6. Cisco 1905 および Cisco 1921 ISR に EHWIC を取り付ける前に、PoE の電源をオフにします。\n\nCisco 1900 シリーズ ハードウェア インストレーション\n\n1-3\n\nOL-19084-03-J\n\n### Figure: 図 1-2 Cisco 1905 および Cisco 1921 ルータの背面パネル（図は 1921）\n\n![図 1-2 Cisco 1905 および Cisco 1921 ルータの背面パネル（図は 1921）](figures/page1_fig1.png)",
+      "figures": [
+        {
+          "id": "figure_1",
+          "index": 1,
+          "page": 1,
+          "caption": "図 1-2 Cisco 1905 および Cisco 1921 ルータの背面パネル（図は 1921）",
+          "description": null,
+          "filename": "page1_fig1.png",
+          "path": "figures/page1_fig1.png",
+          "bounding_box": {
+            "x0": 386.49,
+            "y0": 884.68,
+            "x1": 1488.38,
+            "y1": 1702.18,
+            "width": 1101.89,
+            "height": 817.5
+          },
+          "reclassified": true,
+          "original_type": "Table"
+        }
+      ],
+      "tables": [
+        {
+          "id": "table_1",
+          "index": 1,
+          "page": 1,
+          "caption": null,
+          "description": null,
+          "filename": "page1_table1.png",
+          "path": "tables/page1_table1.png",
+          "csv_path": "tables/page1_table1.csv",
+          "bounding_box": {
+            "x0": 365.62,
+            "y0": 467.81,
+            "x1": 1488.27,
+            "y1": 548.71,
+            "width": 1122.65,
+            "height": 80.9
+          },
+          "reclassified": false,
+          "original_type": "Table"
+        }
+      ],
+      "bounding_box": {
+        "x0": 64.64,
+        "y0": 112.8,
+        "x1": 1488.38,
+        "y1": 1702.18,
+        "width": 1423.74,
+        "height": 1589.38
+      }
+    }
+  ]
+}

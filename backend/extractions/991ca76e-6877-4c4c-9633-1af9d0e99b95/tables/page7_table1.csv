@@ -1,0 +1,20 @@
+Unnamed: 0,NaiveRAG,LightRAG,NaiveRAG_,LightRAG.1,NaiveRAG_.1,LightRAG.2,NaiveRAG.1,LightRA¢
+Comprehensiveness,32.4%,67.6%,38.4%,61.6%,16.4%,,38.8%,
+Diversity,23.6%,,38.0%,,13.6%,,32.4%,
+Empowerment,32.4%,,38.8%,,16.4%,,42.8%,
+Overall,32.4%,,38.8%,,15.2%,.,40.0%,.
+Overall,RQ-RAG_,LightRAG,= RQ-RAG_,LightRAG,= RQ-RAG_,LightRAG,=RQ-RAG,__LightRA¢
+Comprehensiveness,31.6%,68.4%,38.8%,61.2%,15.2%,84.8%,39.2%,60.8%
+Diversity,29.2%,10.8%,39.2%,60.8%,11.6%,,30.8%,
+Empowerment Overall,31.6%,,36.4%,63.6%,15.2%,,42.4%,
+Empowerment Overall,32.4%,67.6%,38.0%,62.0%,14.4%,85.6%,40.0%,60.0%
+Empowerment Overall,HyDE,LightRAG,HyDE,LightRAG,HyDE,LightRAG,HyDE,LightRA¢
+Comprehensiveness,26.0%,74.0%,41.6%,58.4%,26.8%,73.2%,40.4%,59.6%
+Diversity,24.0%,,38.8%,61.2%,20.0%,,32.4%,
+Empowerment,25.2%,74.8%,40.8%,59.2%,26.0%,74.0%,46.0%,
+Overall,24.8%,75.2%,41.6%,58.4%,26.4%,73.6%,42.4%,57.6%
+Overall,GraphRAG,LightRAG,GraphRAG,LightRAG,GraphRAG,LightRAG,GraphRAG_,LightRAt
+Comprehensiveness,45.6%,54.4%,48.4%,51.6%,48.4%,51.6%,50.4%,49.6%
+Diversity,22.8%,71.2%,40.8%,59.2%,26.4%,73.6%,36.0%,64.0%
+Empowerment,41.2%,58.8%,45.2%,54.8%,43.6%,56.4%,50.8%,49.2%
+Overall,45.2%,54.8%,48.0%,52.0%,47.2%,52.8%,50.4%,49.6%

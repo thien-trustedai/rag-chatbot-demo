@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: pdf-rag-backend-dev
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./backend/uploads:/app/uploads
+      - ./backend/extractions:/app/extractions
+      - ./backend/chroma_db:/app/chroma_db
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - pdf-rag-network
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+    container_name: pdf-rag-frontend-dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
+      - WATCHPACK_POLLING=true
+    depends_on:
+      - backend
+    networks:
+      - pdf-rag-network
+
+networks:
+  pdf-rag-network:
+    driver: bridge

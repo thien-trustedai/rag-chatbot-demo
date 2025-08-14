@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Output directories
+output/
+*_output/
+*_extraction/
+!example_output/
+
+# Test directories
+test_*/
+baseline_*/
+final_*/
+refactored_*/
+correct_*/
+
+# Backup files
+*.old
+*.bak
+*.backup
+
+# ChromaDB
+chroma_db/
+
+# Large files
+*.pdf
+!single_page.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,20 @@
+Unnamed: 0,NaiveRAG,LightRAG,= NaiveRAG_,LightRAG.1,= NaiveRAG_.1,LightRAG.2,= NaiveRAG,_LightRAG
+Comprehensiveness,32.4%,67.6%,38.4%,,16.4%,83.6%,38.8%,61.2%
+Diversity,23.6%,,38.0%,,13.6%,,32.4%,
+Empowerment Overall,32.4%,,38.8%,,16.4%.,,42.8%,
+Empowerment Overall,32.4%,,38.8%,,15.2%,,40.0%,
+Empowerment Overall,NaiveRAG,,NaiveRAG,,NaiveRAG,-High,NaiveRAG,-High
+Comprehensiveness,34.8%,,42.8%,,23.6%,,40.4%,
+Diversity,27.2%,,36.8%,,16.8%,,36.0%,
+Empowerment,36.0%,,42.4%,,22.8%,,47.6%,
+Overall,35.2%,,44.0%,,22.0%,78.0%,42.4%,
+Overall,NaiveRAG,,NaiveRAG,,NaiveRAG,-Low,NaiveRAG,
+Comprehensiveness,36.0%,,43.2%,,19.2%,,36.0%,
+Diversity,28.0%,,39.6%,,13.6%,,33.2%,
+Empowerment,34.8%,,42.8%,,16.4%,,35.2%,
+Overall,34.8%,65.2%,43.6%,,18.8%,,35.2%,
+Overall,NaiveRAG,-Origin,NaiveRAG,,NaiveRAG,,NaiveRAG,
+Comprehensiveness,24.8%,75.2%,39.2%,,16.4%.,,44.4%,
+Diversity,26.4%,,44.8%,,14.4%,,25.6%,
+Empowerment,32.0%,,43.2%,,17.2%,,45.2%,
+Overall,25.6%,74.4%,39.2%,,15.6%,,44.4%,
