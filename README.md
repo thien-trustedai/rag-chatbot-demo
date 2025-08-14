@@ -1,4 +1,4 @@
-# Docker Setup for PDF RAG Chat Application
+# PDF RAG Chat Demo
 
 This application uses Docker Compose to orchestrate the frontend (Next.js) and backend (FastAPI) services.
 
